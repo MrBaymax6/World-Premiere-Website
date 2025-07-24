@@ -1,6 +1,31 @@
 body{
     background-color: black;
 }
-h1{
-    color: coral;    
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #161f2b;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+}
+
+.navbar a:hover{
+    color: #f2a366;
+}
+
+.navbar li{
+    float: left;
+}
+
+#login{
+    float: right;
 }
