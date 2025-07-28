@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <html>
+    <!-- The homepage -->
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
         <title>World Premieres and Announcements at TGA 2024</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+        <!-- The header that has the home and login buttons -->
         <div class="header">
         <nav class="navbar">
             <ul>
@@ -22,7 +27,50 @@
         <br>
         <br>
         <br>
+        <!-- The title of the site -->
         <h1 style="color: #f2a366;"><center>World Premieres and Announcements at TGA 2024</center></h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- The card slider of game announcements-->
+         <section>
+            <div class="swiper mySwiper container">
+                <div class="swiper-wrapper content">
+
+                    <!-- 1st card -->
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="images/ninja-gaiden-ragebound.jpg" alt="1. Ninja Gaiden Ragebound">
+                            </div>
+
+                            <div class="game-title">
+                                <span class="title">Ninja Gaiden Ragebound</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2nd card -->
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            <div class="image">
+                                <img src="images/one-move-away.avif" alt="2. One Move Away">
+                            </div>
+
+                            <div class="game-title">
+                                <span class="title">One Move Away</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
         </main>
     </body>
 </html>
