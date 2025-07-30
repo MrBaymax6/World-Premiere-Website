@@ -1,4 +1,10 @@
+*{
+    font-family: sans-serif;
+}
+
 body{
+    align-items: center;
+    justify-content: center;
     background-color: black;
 }
 
@@ -28,4 +34,67 @@ body{
 
 #login{
     float: right;
+}
+
+section{
+    position: relative;
+    height: 250px;
+    width: 1700px;
+    display: flex;
+    align-items: center;
+}
+
+.swiper{
+    width: 1050px;
+}
+
+.card{
+    position: relative;
+    border-radius: 20px;
+    height: 400px;
+    margin: 20px 0;
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.card .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+    z-index: 100;
+}
+
+section .card .image{
+    height: 230.617px;
+    width: 282.133px;
+    border-radius: 20%;
+    padding: 3px;
+    margin-top: 30px;
+}
+
+section .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+.card .game-title{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5%;
+}
+
+.card .game-title:hover{
+    color: #f2a366;
 }
