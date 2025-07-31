@@ -14,6 +14,7 @@ body{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    width: 1700px;
 }
 
 .navbar a{
@@ -72,9 +73,13 @@ section{
     z-index: 100;
 }
 
+.card .card-content:hover{
+    transform: translateY(-5px);
+}
+
 section .card .image{
     height: 230.617px;
-    width: 282.133px;
+    width: 252.133px;
     border-radius: 20%;
     padding: 3px;
     margin-top: 30px;
