@@ -46,7 +46,7 @@ section{
 }
 
 .swiper{
-    width: 1050px;
+    width: 350px;
 }
 
 .card{
@@ -101,10 +101,6 @@ section .card .image img{
 }
 
 /*
-.card .game-title:hover{
-    color: #f2a366;
-}
-
 
 .swiper-pagination{
     height: 7px;
