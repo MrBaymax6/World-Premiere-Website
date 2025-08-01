@@ -46,7 +46,7 @@ section{
 }
 
 .swiper{
-    width: 350px;
+    width: 1350px;
 }
 
 .card{
@@ -103,13 +103,14 @@ section .card .image img{
 .swiper-pagination{
     position: absolute;
     top: 450px;
+    transform: translateY(100px);
 }
 
 .swiper-pagination-bullet{
     height: 7px;
     width: 26px;
     border-radius: 25px;
-    background: white;
+    background:#f2a366;
 }
 
 .swiper-button-next, .swiper-button-prev{
