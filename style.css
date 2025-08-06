@@ -8,13 +8,20 @@ body{
     background-color: black;
 }
 
+.header{
+    background-color: #161f2b;
+    color: #161f2b;
+    transform: translateY(-50px);
+    width: 1710px;
+}
+
 .navbar ul{
     list-style-type: none;
     background-color: #161f2b;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
-    width: 1700px;
+    transform: translateX(-10px);
 }
 
 .navbar a{
@@ -23,6 +30,7 @@ body{
     text-decoration: none;
     padding: 25px;
     display: block;
+    font-weight: 800;
 }
 
 .navbar a:hover{
@@ -33,7 +41,7 @@ body{
     float: left;
 }
 
-#login{
+#wishlist{
     float: right;
 }
 
@@ -103,7 +111,7 @@ section .card .image img{
 .swiper-pagination{
     position: absolute;
     top: 450px;
-    transform: translateY(150px);
+    transform: translateY(120px);
 }
 
 .swiper-pagination-bullet{
