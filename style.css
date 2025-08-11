@@ -137,9 +137,9 @@ section .card .image img{
 
 .WP{
     width: 1680px;
-    overflow-x: hidden;
     margin: 0%;
     padding: 0%;
+    overflow: hidden;
 }
 
 .arrows{
@@ -194,6 +194,10 @@ section .card .image img{
     transform: translateY(-500px);
     margin-right: 50px;
     overflow: auto; 
+}
+
+#newQ{
+    font-weight: 800;
 }
 
 #wishlist-button{
