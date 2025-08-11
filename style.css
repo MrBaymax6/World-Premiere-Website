@@ -142,18 +142,18 @@ section .card .image img{
     overflow: hidden;
 }
 
-.arrows{
-    transform: translateY(-30px);
-    overflow: auto; 
-}
-
 #title{
     color: #f2a366;
     overflow: auto;
 }
 
+.arrows{
+    transform: translateY(-30px);
+}
+
 #next-button{
     float: right;
+    overflow: auto; 
     color:white;
     background-color: #f2a366;
     font-size: 25px;
@@ -164,6 +164,24 @@ section .card .image img{
 }
 
 #next-button:hover{
+    color:#f2a366;
+    background-color: white;
+    border-color: white;
+}
+
+#prev-button{
+    float: left;
+    overflow: auto; 
+    color:white;
+    background-color: #f2a366;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #f2a366;
+    overflow: auto;
+    border: 0px;
+}
+
+#prev-button:hover{
     color:#f2a366;
     background-color: white;
     border-color: white;
