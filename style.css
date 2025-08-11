@@ -12,15 +12,17 @@ body{
     background-color: #161f2b;
     color: #161f2b;
     transform: translateY(-60px);
-    width: 1710px;
+    width: 1600px;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 
 .navbar ul{
     list-style-type: none;
     background-color: #161f2b;
-    padding: 0px;
+    padding: 0%;
     margin: 0px;
-    overflow: hidden;
+    overflow: auto;
     transform: translateX(-10px);
 }
 
@@ -43,6 +45,7 @@ body{
 
 #wishlist{
     float: right;
+    transform: translateX(-15px);
 }
 
 section{
@@ -130,4 +133,82 @@ section .card .image img{
 .swiper-button-next:hover, .swiper-button-prev:hover{
     opacity: 1;
     color: #f2a366;
+}
+
+.WP{
+    width: 1680px;
+    overflow-x: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+
+.arrows{
+    transform: translateY(-30px);
+    overflow: auto; 
+}
+
+#title{
+    color: #f2a366;
+    overflow: auto;
+}
+
+#next-button{
+    float: right;
+    color:white;
+    background-color: #f2a366;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #f2a366;
+    overflow: auto;
+    border: 0px;
+}
+
+#next-button:hover{
+    color:#f2a366;
+    background-color: white;
+    border-color: white;
+}
+
+#video{
+    float: left;
+    transform: translateX(100px);
+    overflow: auto; 
+}
+
+#game-info{
+    transform: translateX(100px);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 0%;
+    margin-top: 70px;
+    overflow: auto; 
+}
+
+#game-desc{
+    font-size: 20px;
+    color: white;
+    float: right;
+    overflow: hidden;
+    width: 40%;
+    transform: translateY(-500px);
+    margin-right: 50px;
+    overflow: auto; 
+}
+
+#wishlist-button{
+    float: right;
+    color:white;
+    background-color: #f2a366;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color: #f2a366;
+    overflow: auto;
+    border: 0px;
+}
+
+#wishlist-button:active{
+    color:#f2a366;
+    background-color: white;
+    border-color: white;
 }
