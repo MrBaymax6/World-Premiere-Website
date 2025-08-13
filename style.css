@@ -48,6 +48,10 @@ body{
     transform: translateX(-15px);
 }
 
+a{
+    text-decoration: none;
+}
+
 section{
     position: relative;
     height: 250px;
