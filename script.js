@@ -1,5 +1,5 @@
 //Provides functionality to the card slider
-var swiper = new Swiper(".mySwiper", {
+let swiper = new Swiper(".mySwiper", {
     slidesPerView: 5,
     spaceBetween: 30,
     slidesPerGroup: 5,
@@ -14,3 +14,8 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+//The Wishlist
+document.addEventListener("DOMContentLoaded", function() {
+    const gameElements = document.querySelectorAll('#wishlist-button');
+})
