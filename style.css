@@ -226,19 +226,69 @@ section .card .image img{
     font-weight: 800;
 }
 
+/* Wishlist Page */
+
+.wishlist{
+    width: 1680px;
+    margin: 0%;
+    padding: 0%;
+    color:white;
+}
+
+.dropdown{
+    margin: auto;
+    font-size: 25px;
+}
+
+.dropdown select{
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 40px;
+    overflow: auto;
+}
+
 #wishlist-button{
-    float: right;
     color:white;
     background-color: #f2a366;
     font-size: 25px;
-    border-radius: 10px;
+    border-radius: 15px;
     border-color: #f2a366;
     overflow: auto;
     border: 0px;
+    transform: translateX(70px);
+    cursor: pointer;
 }
 
 #wishlist-button:active{
     color:#f2a366;
     background-color: white;
     border-color: white;
+}
+
+#list-container li{
+    color: white;
+    list-style: none;
+    padding: 30px 8px 12px 550px;
+    font-size: 25px;
+}
+
+ul li span{
+    position:absolute;
+    right: 500px;
+    transform: translateY(-5px);
+    transform: translateX(5px);
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    color: #f2a366;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background: #edeef0;
 }

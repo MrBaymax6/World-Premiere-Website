@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wishlist</title>
-    <link rel="stylesheet" href="../style.css">
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="/style.css">
     <link rel="icon" type="image/png" href="../images/favicon.png">
 </head>
-<body class="WP">
+
+<body class="wishlist">
     <!-- The header that has the home and wishlist buttons -->
     <div class="header">
         <header>
@@ -16,13 +17,99 @@
         <nav class="navbar">
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li id="wishlist"><a href="">Wishlist</a></li>
+                <li id="wishlist"><a href="wishlist.html">Wishlist</a></li>
             </ul>
         </nav>
     </div>
 
     <br>
 
-    <script src="../script.js"></script>
+    <div class="container">
+        <div class="wishlist">
+            <!-- The Title -->
+            <h1 id="title"><center>Wishlist</center></h1>
+            <br>
+            <br>
+
+            <div class="dropdown">
+                <center>
+                <label for="gaming-dropdown">Choose a game your want: </label>
+                <select id="gaming-dropdown" name="gameslist">
+                    <option value="option1">Blackfrost: The Long Dark 2</option>
+                    <option value="option2">Borderlands 4</option>
+                    <option value="option3">Catly</option>
+                    <option value="option4">Crimson Desert</option>
+                    <option value="option5">Dave The Diver: In The Jungle</option>
+                    <option value="option6">Den of Wolves</option>
+                    <option value="option7">Dispatch</option>
+                    <option value="option8">Double Dragon Revive</option>
+                    <option value="option9">Dungeon & Fighter: ARAD</option>
+                    <option value="option10">Dying Light: The Beast</option>
+                    <option value="option11">ELDEN RING: NIGHTREIGN</option>
+                    <option value="option12">Final Fantasy VII Rebirth</option>
+                    <option value="option13">Fortnite: Ballistic</option>
+                    <option value="option14">FragPunk</option>
+                    <option value="option15">Game of Thrones: Kingsroad</option>
+                    <option value="option16">Helldivers II: Omens of Tyranny</option>
+                    <option value="option17">Honkai: Star Rail</option>
+                    <option value="option18">Hunt: Showdown 1896 Post Malone’s Murder Circus</option>
+                    <option value="option19">Infinity Nikki</option>
+                    <option value="option20">Intergalactic: The Heretic Prophecy</option>
+                    <option value="option21">Killing Floor III</option>
+                    <option value="option22">KYORA</option>
+                    <option value="option23">LEGO Fortnite Odyssey</option>
+                    <option value="option24">Mafia: The Old Country</option>
+                    <option value="option25">Mecha BREAK</option>
+                    <option value="option26">Midnight Murder Club</option>
+                    <option value="option27">Monster Hunter Now Season 4</option>
+                    <option value="option28">New Virtua Fighter Project</option>
+                    <option value="option29">Ninja Gaiden Ragebound</option>
+                    <option value="option30">Okami Sequel</option>
+                    <option value="option31">One Move Away</option>
+                    <option value="option32">Onimusha: Way of the Sword</option>
+                    <option value="option33">Palworld</option>
+                    <option value="option34">Project Century</option>
+                    <option value="option35">Rematch: Online Football Action</option>
+                    <option value="option36">Screamer</option>
+                    <option value="option37">Shadow Labyrinth</option>
+                    <option value="option38">Slay The Spire II</option>
+                    <option value="option39">Solasta II</option>
+                    <option value="option40">Solo Leveling Arise</option>
+                    <option value="option41">Sonic Racing: CrossWorlds</option>
+                    <option value="option42">Split Fiction</option>
+                    <option value="option43">Splitgate 2</option>
+                    <option value="option44">Squid Game Unleased</option>
+                    <option value="option45">Stage Fright</option>
+                    <option value="option46">StalCraft: X “Operations”</option>
+                    <option value="option47">STEEL HUNTERS</option>
+                    <option value="option48">Steel Paws</option>
+                    <option value="option49">Tales of the Shire: A The Lord of the Rings Game</option>
+                    <option value="option50">TEKKEN 8</option>
+                    <option value="option51">The First Berserker: Khazan</option>
+                    <option value="option52">The Outer Worlds 2</option>
+                    <option value="option53">The Last of Us Part II Remaster</option>
+                    <option value="option54">The Witcher IV</option>
+                    <option value="option55">Thick As Thieves</option>
+                    <option value="option56">Turok Origins</option>
+                    <option value="option57">Untitled Game Project by the Creator of Ico</option>
+                    <option value="option58">Warframe: 1999</option>
+                    <option value="option59">Wuthering Waves</option>
+                    <option value="option60">Zenless Zone Zero</option>
+                </select>
+
+                <!--Wishlist button-->
+                <button onclick="addGame()" id="wishlist-button">Add To Wishlist</button>
+            </div>
+                <br>
+                </center>
+                <ul id="list-container">
+                        <!-- <li>Task 1</li>
+                        <li>Ninja Gaiden Ragebound</li>
+                        <li>Task 1</li> -->
+                </ul>
+        </div>
+    </div>
+
+    <script src="wishlist.js"></script>
 </body>
 </html>
