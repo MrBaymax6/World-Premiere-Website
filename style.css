@@ -147,7 +147,7 @@ section .card .image img{
     width: 1680px;
     margin: 0%;
     padding: 0%;
-    overflow: hidden;
+    overflow: auto;
 }
 
 #title{
@@ -202,12 +202,12 @@ section .card .image img{
 }
 
 #game-info{
-    transform: translateX(100px);
+    transform: translateX(50px);
     color: white;
     text-decoration: none;
     font-size: 20px;
     border-radius: 0%;
-    margin-top: 70px;
+    margin-top: 30px;
     overflow: auto; 
 }
 
@@ -215,7 +215,6 @@ section .card .image img{
     font-size: 20px;
     color: white;
     float: right;
-    overflow: hidden;
     width: 40%;
     transform: translateY(-500px);
     margin-right: 50px;
@@ -233,6 +232,7 @@ section .card .image img{
     margin: 0%;
     padding: 0%;
     color:white;
+    overflow: auto;
 }
 
 .dropdown{
