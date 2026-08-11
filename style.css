@@ -197,12 +197,12 @@ section .card .image img{
 
 #video{
     float: left;
-    transform: translateX(100px);
+    transform: translateX(70px);
     overflow: auto; 
 }
 
 #game-info{
-    transform: translateX(50px);
+    transform: translateX(70px);
     color: white;
     text-decoration: none;
     font-size: 20px;
@@ -216,7 +216,7 @@ section .card .image img{
     color: white;
     float: right;
     width: 40%;
-    transform: translateY(-600px);
+    transform: translateY(-650px);
     margin-right: 100px;
     overflow: auto; 
 }
